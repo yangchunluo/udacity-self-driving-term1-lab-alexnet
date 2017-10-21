@@ -37,7 +37,7 @@ t = time.time()
 
 saver = tf.train.Saver()
 with tf.Session() as sess:
-    saver.restore(sess, tf.train.latest_checkpoint("."))
+    saver.restore(sess, "./alexnet-chkpt")
     output = sess.run(probs, feed_dict={features: [im1, im2]})
 
 # Print Output
