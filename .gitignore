@@ -3,3 +3,7 @@ __pycache__
 bvlc-alexnet.npy
 train.p
 .vscode
+.idea/
+alexnet-chkpt*
+checkpoint
+logs/
